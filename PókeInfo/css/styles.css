@@ -1,0 +1,85 @@
+body {
+    background-image: url('https://i.imgur.com/xMEPZUH.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    font-family: 'Pokemon'; 
+}
+
+@font-face {
+    font-family: 'Pokemon';
+    src: url('Pokemon\ Hollow.ttf');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+.container {
+    max-width: 800px; 
+    margin: auto; 
+    padding: 20px; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); 
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.pokemon-info {
+    margin-top: 20px;
+    padding: 0; 
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s; 
+}
+
+.pokemon-info:hover {
+    transform: scale(1.05); 
+}
+
+.pokemon-body {
+    padding: 10px;
+}
+
+.pokemon-title {
+    font-size: 2.0rem;
+    color: #ffcc00; 
+    margin-bottom: 10px; 
+}
+
+.pokemon-text {
+    font-size: 1.5rem; 
+    margin: 5px 0;
+}
+
+.form-inline {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 20px;
+    border: 1px solid #ffcc00;
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: #fff; 
+}
+
+.btn-primary {
+    border-radius: 20px; 
+    background-color: #ffcc00; 
+    border: none; 
+    color: #000; 
+    transition: background-color 0.3s; 
+}
+
+.btn-primary:hover {
+    background-color: #ffd700; 
+}
+
+.img-fluid {
+    max-width: 250%;
+    height: 200px;
+}
