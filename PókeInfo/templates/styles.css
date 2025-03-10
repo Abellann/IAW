@@ -1,0 +1,13 @@
+body {
+    background-image: url('https://i.imgur.com/xMEPZUH.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    font-family: 'Pokemon'; 
+}
+
+@font-face {
+    font-family: 'Pokemon';
+    src: url('/fonts/Pokemon-Hollow.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
